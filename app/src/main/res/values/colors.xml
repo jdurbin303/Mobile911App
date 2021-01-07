@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="backgroundColor">#1E90FF</color>
+    <color name="orange_text">#E9634C</color>
+    <color name="tiger_orange">#FD6A02</color>
+    <color name="headers">#880E4F</color>
+    <color name="headers2">#E0823A</color>
+</resources>

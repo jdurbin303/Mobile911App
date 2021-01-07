@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/domestic_header"
+        android:layout_width="147dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="clip_vertical|center_horizontal"
+        android:text="@string/domestic2"
+        android:textColor="@color/headers2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/domestic_explanation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_safety_explanation" />
+
+    <TextView
+        android:id="@+id/retail_header"
+        android:layout_width="149dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="clip_vertical|center_horizontal"
+        android:text="@string/retail_header"
+        android:textColor="@color/headers2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/retail_explanation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mental_health_explanation" />
+
+    <TextView
+        android:id="@+id/conflict_header"
+        android:layout_width="298dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/conflict_header"
+        android:textColor="@color/headers2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/menu_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/retail_explanation" />
+
+    <TextView
+        android:id="@+id/mental_header"
+        android:layout_width="144dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="clip_vertical|center_horizontal"
+        android:text="@string/mental_header2"
+        android:textColor="@color/headers2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/retail_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/domestic_explanation" />
+
+    <TextView
+        android:id="@+id/typesTextView"
+        android:layout_width="243dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="clip_vertical|center_horizontal"
+        android:text="@string/types_of_help_title"
+        android:textColor="@color/buoybutton_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/personal_safety_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutUsParagraph" />
+
+    <Button
+        android:id="@+id/menu_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/buoybutton_background"
+        android:text="Menu"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutUsParagraph" />
+
+    <TextView
+        android:id="@+id/aboutTitleTextView"
+        android:layout_width="161dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="clip_vertical|center_horizontal"
+        android:text="@string/about_us_title"
+        android:textColor="@color/buoybutton_background"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/aboutUsParagraph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aboutUsParagraph"
+        android:layout_width="405dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="434dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/about_us_paragraph"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/menu_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/personal_safety_header"
+        android:layout_width="133dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="clip_horizontal|clip_vertical|center_horizontal"
+        android:text="@string/personal_safety"
+        android:textColor="@color/headers2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/personal_safety_explanation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typesTextView" />
+
+    <TextView
+        android:id="@+id/personal_safety_explanation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:includeFontPadding="false"
+        android:text="@string/personal_safety_explanation"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/domestic_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_safety_header" />
+
+    <TextView
+        android:id="@+id/domestic_explanation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/domestic_explanation"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/mental_health_explanation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/domestic_header" />
+
+    <TextView
+        android:id="@+id/mental_health_explanation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/mental_health_explanation"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/retail_explanation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/domestic_explanation" />
+
+    <TextView
+        android:id="@+id/retail_explanation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="29dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/retail_explanation"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/conflict_explanation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mental_health_explanation" />
+
+    <TextView
+        android:id="@+id/conflict_explanation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="84dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/conflict_explanation"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/retail_explanation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
